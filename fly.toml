@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for zdx2 on 2026-02-12T18:53:24Z
+# fly.toml app configuration file generated for zdx2-zfvivw on 2026-02-12T19:26:07Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'zdx2'
-primary_region = 'iad'
+app = 'zdx2-zfvivw'
+primary_region = 'ams'
 
 [build]
 
@@ -20,4 +20,4 @@ primary_region = 'iad'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 1024
+  memory_mb = 256
